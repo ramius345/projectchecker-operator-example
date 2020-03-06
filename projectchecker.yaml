@@ -1,0 +1,5 @@
+apiVersion: gpte.opentlc.com/v1alpha1
+kind: Projectchecker
+metadata:
+  name: myinstance
+spec: {}

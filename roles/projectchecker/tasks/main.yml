@@ -1,0 +1,14 @@
+---
+# tasks file for projectchecker
+#
+#
+
+- name: Ensure example project exists
+  k8s:
+    state: present
+    definition:
+      kind: Project
+      apiVersion: project.openshift.io/v1
+      metadata:
+        name: example
+      spec: {}
